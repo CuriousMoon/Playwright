@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<suite name="Ecommerce" parallel="methods" thread-count="2">
+    <test name="BuyProduct" preserve-order="true">
+        <classes>
+            <class name="demo.playwright.test.BuyProduct">
+            </class>
+        </classes>
+    </test>
+</suite>
